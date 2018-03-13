@@ -1,0 +1,15 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Korus">
+    <test name="google">
+        <classes>
+            <class name = "ru.egor.sem.korus.ui.ClickLogoTest" />
+            <class name = "ru.egor.sem.korus.ui.SearchResultsTests" />
+            <class name = "ru.egor.sem.korus.ui.TitleTest" />
+        </classes>
+    </test>
+    <test name="API">
+        <classes>
+            <class name="ru.egor.sem.korus.api.InnOgrnTests" />
+        </classes>
+    </test>
+</suite>
